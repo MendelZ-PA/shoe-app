@@ -1,0 +1,6 @@
+<h1>All Shoes</h1>
+<% @shoes.each do |shoe| %>
+  <h2><%= shoe.name %></h2>
+  <p>Brand id: <% = shoe.brand_id %></p>
+  <p>Size: <%= shoe.size%></p>
+<% end %>  
